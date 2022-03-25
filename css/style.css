@@ -1,0 +1,33 @@
+body {
+    background-color: #ffd4b0;
+    color: #0090a8;
+}
+
+h1, h2, h3, h4, h5,h6 {
+    font-family:"Shrikhand";
+    font-size: 40pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero {
+    color:#31d8f5;
+    border: 2px solid #f58830;
+    background-color: #a85511;
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+footer {
+    color:#31d8f5;
+    border: 2px solid #f58830;
+    background-color: #a85511;
+    text-align: center;
+    padding: 10px;
+}
