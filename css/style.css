@@ -1,10 +1,15 @@
 body {
+    font-family: Roboto;
     background-color: #ffd4b0;
     color: #0090a8;
 }
 
 h1, h2, h3, h4, h5,h6 {
     font-family:"Shrikhand";
+    text-align: center;
+}
+
+h1 {
     font-size: 40pt;
 }
 
@@ -12,7 +17,7 @@ header {
     text-align: center;
 }
 
-#hero {
+#hero, footer {
     color:#31d8f5;
     border: 2px solid #f58830;
     background-color: #a85511;
@@ -24,10 +29,18 @@ header {
     width: 300px;
 }
 
-footer {
-    color:#31d8f5;
-    border: 2px solid #f58830;
-    background-color: #a85511;
+#hobbies {
+    list-style-position: inside;
     text-align: center;
-    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#hobbies ul li:nth-child(odd){
+    color: darkred;
+}
+
+#hobbies ul li:nth-child(even) {
+    color: #0090a8;
+
 }
