@@ -66,3 +66,36 @@ header {
 #gallery figure {
     text-align:center;
 }
+
+/* Literature */
+
+#lit {
+    border: 3px dashed #f58830;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#lit div {
+    padding: 3px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 2px 0px;
+}
+
+#lit div p:first-line {
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+#lit div p:first-letter {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    padding-right: 4px;
+    font-family: "Shrikhand";
+    color: #a85511;
+}
